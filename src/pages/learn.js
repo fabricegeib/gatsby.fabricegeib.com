@@ -32,6 +32,14 @@ const LearnPage = () => (
         title="gatsby"
         description="introduction to build blazing fast websites and apps"
       />
+      <Course
+        title="terminal"
+        description="introduction to terminal"
+      />
+      <Course
+        title="git"
+        description="introduction to git"
+      />
     </div>
   </Layout>
 )
