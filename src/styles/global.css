@@ -1,0 +1,21 @@
+#___gatsby {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav {
+  /* display: flex; */
+}
+.nav__links {
+  display: flex;
+  margin-left: 0;
+}
+.nav__link {
+  list-style: none;
+  margin-right: 12px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+}

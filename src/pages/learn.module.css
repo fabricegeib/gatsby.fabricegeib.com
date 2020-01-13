@@ -1,0 +1,11 @@
+.course {
+  /* display: flex; */
+  background-color: darkgray;
+  width: 25%;
+
+  padding: 1rem;
+}
+
+/* .card {
+  
+} */
