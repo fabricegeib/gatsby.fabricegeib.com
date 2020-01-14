@@ -28,6 +28,11 @@
 
   margin-bottom: 1rem;
 }
+@media only screen and (max-width: 619px){
+  .courses {
+      grid-template-columns: repeat(2,1fr);
+  }
+}
 
 .social-links-container {
 
