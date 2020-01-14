@@ -14,6 +14,9 @@
   list-style: none;
   margin-right: 12px;
 }
+.nav__link:last-child {
+  margin-right: 0;
+}
 
 .courses {
   display: grid;
@@ -22,6 +25,23 @@
   grid-gap: 12px;
   align-content: space-between;
   justify-content: space-between;
-  
+
   margin-bottom: 1rem;
+}
+
+.social-links-container {
+
+}
+.social-links {
+  margin-left: 0;
+  margin-bottom: 0;
+
+  display: flex;
+}
+.social-link {
+  list-style: none;
+  margin-right: 12px;
+}
+.social-link:last-child {
+  margin-right: 0;
 }
