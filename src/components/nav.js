@@ -11,7 +11,7 @@ const ListLink = props => (
 const Nav = () => (
   <nav className="nav">
     <ul className="nav__links">
-      <ListLink to="/">home></ListLink>
+      <ListLink to="/">home</ListLink>
       <ListLink to="/about/">about</ListLink>
       <ListLink to="/learn/">learn</ListLink>
     </ul>
