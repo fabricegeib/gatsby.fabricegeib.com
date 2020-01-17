@@ -1,11 +1,11 @@
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 import React from "react"
 
 const Footer = () => (
-<footer>
+<footer className="footer">
   <div>
-    <ul className="social-links">
+    <ul className="footer-links">
       <li className="social-link">
         <a href="https://github.com/fabricegeib" target="_blank" rel="noopener noreferrer">github</a>
       </li>
@@ -14,6 +14,9 @@ const Footer = () => (
       </li>
       <li className="social-link">
         <a href="https://instagram.com/fabricegeib" target="_blank" rel="noopener noreferrer">instagram</a>
+      </li>
+      <li className="mardown-link">
+        <Link to="/markdown/">markdown</Link>
       </li>
     </ul>
   </div>
