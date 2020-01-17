@@ -8,21 +8,21 @@ export default ({ data }) => {
   return (
     <Layout>
       <div className="markdown-page">
-        <h1>
-          Markdown
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        <h1>Markdown</h1>
+        <h4 className="markdown-posts">{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div className="markdown-card" key={node.id}>
-            <Link to={node.fields.slug}>
-              <h3>
-                {node.frontmatter.title}{" "}
-                <span>
-                  — {node.frontmatter.date}
-                </span>
-              </h3>
-              <p>{node.excerpt}</p>
-            </Link>
+            <div className="markdown-card-content">
+              <Link to={node.fields.slug}>
+                <h3>
+                  {node.frontmatter.title}{" "}
+                  <span>
+                    — {node.frontmatter.date}
+                  </span>
+                </h3>
+                <p>{node.excerpt}</p>
+              </Link>
+            </div>
           </div>
         ))}
       </div>
