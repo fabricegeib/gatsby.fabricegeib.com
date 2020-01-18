@@ -4,8 +4,16 @@ module.exports = {
     siteUrl: `https://fabricegeib.com`,
     description: `Frontend developer & Integrator from Paris 🇫🇷`,
     author: `Fabrice Geib`,
-    twitter: `@fabricegeib`,
-    instagram: `@fabricegeib`
+    social: [
+      {
+        name: "twitter",
+        url: "https://twitter.com/fabricegeib",
+      },
+      {
+        name: "github",
+        url: "https://github.com/fabricegeib",
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
