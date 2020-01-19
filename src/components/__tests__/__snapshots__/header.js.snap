@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="header"
+>
+  <nav
+    className="nav"
+  >
+    <ul
+      className="nav__links"
+    >
+      <li
+        className="nav__link"
+      >
+        <a
+          href="/"
+        >
+          home
+        </a>
+      </li>
+      <li
+        className="nav__link"
+      >
+        <a
+          href="/about/"
+        >
+          about
+        </a>
+      </li>
+      <li
+        className="nav__link"
+      >
+        <a
+          href="/learn/"
+        >
+          learn
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
