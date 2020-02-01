@@ -33,7 +33,7 @@ const MadamNazarPage = class extends React.Component {
       <Layout>
         <h1>Madam Nazar</h1>
 
-        <p>{this.state.fetchedData[]}</p>
+        
       </Layout>
     )
   }

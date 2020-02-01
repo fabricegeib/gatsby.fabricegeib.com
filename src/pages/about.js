@@ -10,6 +10,8 @@ const AboutPage = () => (
     <SEO title="About" />
     <h1>About</h1>
     <Experience experienceTitle="mariannecanarelli.com" />
+
+    <a href="https://external.codecademy.com/users/fabricegeib/achievements">codecademy achievements</a>
   </Layout>
 )
 
