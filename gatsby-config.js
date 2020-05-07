@@ -39,6 +39,17 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        // Arbitrary name for the remote schema Query type
+        typeName: "MadamNazar",
+        // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
+        fieldName: "madamnazar",
+        // Url to query from
+        url: "https://madam-nazar-location-api-2.herokuapp.com/location/current",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
