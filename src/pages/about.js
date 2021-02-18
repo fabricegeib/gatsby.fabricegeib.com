@@ -9,9 +9,12 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" />
     <h1>About</h1>
+
+    <Experience experienceTitle="helmi.im" />
+    <Experience experienceTitle="Les petits pulls d'Abeth" />
     <Experience experienceTitle="helmi.im" />
 
-    <a href="https://external.codecademy.com/users/fabricegeib/achievements">codecademy achievements</a>
+    <a href="https://external.codecademy.com/users/fabricegeib/achievements">codecademy</a>
   </Layout>
 )
 
