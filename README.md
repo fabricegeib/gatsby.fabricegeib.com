@@ -1,3 +1,14 @@
+# Informations
+
+Repo name : gatsby.fabricegeib.com
+
+Gatsby Cloud preview : https://fabricegeib.gatsbyjs.io
+
+Backup  
+Netlify admin : https://app.netlify.com  
+Netlify preview : https://fabricegeib.netlify.app  
+Netlify personal preview : https://netlify.fabricegeib.com
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
